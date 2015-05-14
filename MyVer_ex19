@@ -1,0 +1,23 @@
+#!/usr/bin/python
+# __author__ = 'rglab'
+
+def bananas_and_apples(count_of_bananas, count_of_apples):
+    print "There are %d of bananas" % count_of_bananas
+    print "There are %d of apples" % count_of_apples
+    print "I may need to buy more fruit\n"
+
+print "we can do it this way"
+bananas_and_apples(6, 10)
+
+print "we can do this way too"
+bananas = 10
+apples = 15
+
+bananas_and_apples(bananas, apples)
+
+print "and we can do it this way"
+bananas_and_apples(10 + 10, 20 + 5)
+
+print "and finally this way too"
+bananas_and_apples(bananas + 2, apples + 2)
+
