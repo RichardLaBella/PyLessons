@@ -1,0 +1,26 @@
+#!/usr/bin/python
+
+# using %d format character to reference the 10
+x = "There are %d types of people." % 10
+binary = "binary"
+do_not = "don't"
+# using %s format character twice to reference the % variable in parenthesis
+y = "Those who know %s and those who %s." % (binary, do_not)
+
+# Just printing x and then printing y
+print x
+print y
+
+# printing this to screen. %r is  referencing x which is "there are 10 types of people" 
+print "I said: %r. " % x
+print "I also said: '%s'. " % y
+
+hilarious = False
+joke_evaluation = "isn't that joke so funny?! %r"
+
+print joke_evaluation % hilarious
+
+w = "This is the left side of..."
+e = "a sting with a right side."
+
+print w + e
